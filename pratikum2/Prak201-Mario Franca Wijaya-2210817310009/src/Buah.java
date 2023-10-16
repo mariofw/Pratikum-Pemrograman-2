@@ -1,10 +1,8 @@
 public class Buah {
         // Atribut dan Tipe Data
         String nama;
-        double berat, jumlahBeli,hargaSebelumDiskon,totalDiskon,hargaSesudahDiskon;
-        int harga;
-
-        public Buah(String namaBuah, double beratBuah, int hargaBuah, double jumlahBeli){
+        double berat, jumlahBeli,hargaSebelumDiskon,totalDiskon,hargaSesudahDiskon,harga;
+        public Buah(String namaBuah, double beratBuah, double hargaBuah, double jumlahBeli){
             this.nama = namaBuah;
             this.berat = beratBuah;
             this.harga = hargaBuah;
@@ -18,9 +16,10 @@ public class Buah {
             System.out.println("Nama Buah: "+nama);
             System.out.println("Berat: "+berat+"KG");
             System.out.println("Harga: "+harga);
-            System.out.println("Harga Sebelum Diskon: Rp"+hargaSebelumDiskon);
-            System.out.println("Total Diskon: Rp"+totalDiskon);
-            System.out.println("Harga Setelah Diskon: Rp"+hargaSesudahDiskon+"\n");
+            System.out.println("jumlah Beli: "+jumlahBeli+"KG");
+            System.out.printf("Harga Sebelum Diskon: Rp%.2f\n",hargaSebelumDiskon);
+            System.out.printf("Total Diskon: Rp%.2f\n",totalDiskon);
+            System.out.printf("Harga Setelah Diskon: Rp%.2f\n\n",hargaSesudahDiskon);
         }
     }
 
