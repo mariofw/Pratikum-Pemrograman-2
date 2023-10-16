@@ -14,9 +14,9 @@ public class Buah {
 
         public void display(){
             System.out.println("Nama Buah: "+nama);
-            System.out.println("Berat: "+berat+"KG");
+            System.out.println("Berat: "+berat);
             System.out.println("Harga: "+harga);
-            System.out.println("jumlah Beli: "+jumlahBeli+"KG");
+            System.out.println("jumlah Beli: "+jumlahBeli+"kg");
             System.out.printf("Harga Sebelum Diskon: Rp%.2f\n",hargaSebelumDiskon);
             System.out.printf("Total Diskon: Rp%.2f\n",totalDiskon);
             System.out.printf("Harga Setelah Diskon: Rp%.2f\n\n",hargaSesudahDiskon);
