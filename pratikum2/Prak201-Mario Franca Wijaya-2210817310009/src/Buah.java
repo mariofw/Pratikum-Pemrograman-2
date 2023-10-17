@@ -1,5 +1,4 @@
 public class Buah {
-        // Atribut dan Tipe Data
         String nama;
         double berat, jumlahBeli,hargaSebelumDiskon,totalDiskon,hargaSesudahDiskon,harga;
         public Buah(String namaBuah, double beratBuah, double hargaBuah, double jumlahBeli){
