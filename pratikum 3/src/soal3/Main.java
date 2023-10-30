@@ -25,7 +25,7 @@ public class Main {
                     Mahasiswa A = new Mahasiswa(nama, nim);
                     A.getData();
                     mahasiswaList.add(A);
-                    System.out.println("Mahasiswa telah ditambahkan.");
+                    System.out.println("Mahasiswa "+ A.getNama() +" telah ditambahkan.");
                     continue;
 
                 case 2:
